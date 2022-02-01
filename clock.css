@@ -1,0 +1,57 @@
+body{
+    background-color: pink;
+    user-select: none;
+}
+
+.date{
+    position: absolute;
+    top: 60px;
+    left: 370px;
+    width: auto;
+}
+
+.date p{
+    width: 100px;
+    text-align: center;
+
+    font-family: "微软雅黑";
+    font-size: 150px;
+    font-weight: bold;
+    color: white;
+
+    float: left;
+    margin: -3px;
+}
+
+.clock{
+    position: absolute;
+    bottom: 50px;
+    left: 320px;
+    /* transform:translate(-50%, -50%); */
+    width: auto;
+}
+
+.clock p{
+    width: 200px;
+    text-align: center;
+
+    font-family: "微软雅黑";
+    font-size: 320px;
+    font-weight: bold;
+    color: white;
+
+    float: left;
+    margin: -3px;
+}
+
+.clock p:nth-child(3){
+    width: 110px;
+}
+
+.date p:nth-child(3){
+    width: 80px;
+}
+
+.date p:nth-child(6){
+    width: 380px;
+}
