@@ -1,4 +1,4 @@
-let flag = true;
+let flag = false;
 window.onload = function(){
     let time = new Date();
     let hour = time.getHours();
