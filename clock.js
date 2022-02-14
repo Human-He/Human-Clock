@@ -1,5 +1,5 @@
 let flag = true;
-function clock(){
+window.onload = function clock(){
     let time = new Date();
     let hour = time.getHours();
     let minute = time.getMinutes();
